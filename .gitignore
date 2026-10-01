@@ -1,0 +1,74 @@
+# ===== 操作系统 =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.vim/
+.history/
+
+# ===== 日志 =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== 环境变量 / 密钥（切勿提交）=====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.*
+
+# ===== 缓存 / 临时文件 =====
+.cache/
+tmp/
+temp/
+*.tmp
+
+# ===== Node.js（如不使用可删除）=====
+node_modules/
+dist/
+build/
+coverage/
+.next/
+
+# ===== Python（如不使用可删除）=====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ===== Java / Maven / Gradle（如不使用可删除）=====
+target/
+*.class
+.gradle/
+
+# ===== 压缩包 =====
+*.zip
+*.tar.gz
+*.rar
+
+
+123.py
